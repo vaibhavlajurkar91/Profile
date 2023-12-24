@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile of Vaibhav</title>
+    <script src="https://kit.fontawesome.com/eb4eaaf859.js" crossorigin="anonymous"></script>
+    <style>
+        html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: 
+        linear-gradient(-45deg, rgba(74, 228, 156) 0%, rgb(139, 48, 255) 100%);
+        background-size: cover;
+        }
+
+    
+        .container{
+            /* background-color: aqua;
+            background-size: cover; */
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+        }
+        .Image #photo img{
+            border-radius: 50% ;
+            margin-top:10px ;
+            height: 200px;
+            width: 200px;
+            border: 2px solid white;
+            box-shadow: 7px 7px 7px ;
+            animation: float 6s ease-in-out infinite;
+            transform: translatey(0px);
+        }
+        @keyframes float {
+            0% {
+                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+                transform: translatey(0px);
+            }
+            50% {
+                box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+                transform: translatey(-20px);
+            }
+            100% {
+                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+                transform: translatey(0px);
+            }
+        }
+
+        .contain{
+            text-align: center;
+    
+        }
+        .contain .name:hover{
+            color: white;
+        }
+
+
+
+        .con span {
+            margin-right: 20px; /* Adjust the value to set the desired space between the icons */
+        }
+
+
+        
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="Image">
+            <a id="photo" href="https://www.linkedin.com/in/vaibhav-lajurkar-726024208/"><img src="https://media.licdn.com/dms/image/D4D35AQFCyWTiF1KvJQ/profile-framedphoto-shrink_400_400/0/1694922700718?e=1704049200&v=beta&t=ufOsPpqEbPofz_pSUhB19oggBZC4mZHjwSmZOHSmUJw" alt="Vaibhav"></a>
+        </div>
+        <div class="contain">
+            <h1 class="name">Vaibhav Lajurkar</h1>
+            <h3 class="prof">@Android Developer</h3>
+            <h5 class="pages">Follow me:</h5>
+            <p class="con">
+                <span><a href="https://www.youtube.com/channel/UC5-y9NbqdV76hUARzfRyv0w"><i class="fa-brands fa-youtube"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/vaibhav-lajurkar-726024208/"><i class="fa-brands fa-linkedin"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/vaibhav-lajurkar-726024208/"><i class="fa-brands fa-instagram"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/vaibhav-lajurkar-726024208/"><i class="fa-brands fa-facebook"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/vaibhav-lajurkar-726024208/"><i class="fa-brands fa-x-twitter"></i></a></span>
+
+            </p>
+        </div>
+        
+
+
+
+    </div>    
+</body>
+</html>
